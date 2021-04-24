@@ -4,7 +4,10 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-def scrape_site(SAMPLE_URL):
+def hello():
+    print("heloo")
+
+def scrape_site(self,SAMPLE_URL):
     options = webdriver.ChromeOptions()
     options.headless = True
     options.add_argument("window-size=1920x1080")
